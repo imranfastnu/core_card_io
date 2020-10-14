@@ -19,7 +19,7 @@ import io.flutter.plugin.common.PluginRegistry.ActivityResultListener;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 public class CoreCardIoPlugin implements MethodCallHandler, ActivityResultListener {
-    private static final int MY_SCAN_REQUEST_CODE = 100;
+    private static final int MY_SCAN_REQUEST_CODE = 101;
 
     private final PluginRegistry.Registrar registrar;
     private Result pendingResult;
